@@ -9,6 +9,8 @@ public  class Main  {
         var tvs2 = new ArrayList<IPowerSwitch>();
         tvs2.add(new Samsung());
         tvs2.add(new LG());
+        tvs2.add(new GreenLight()) ;
+        tvs2.add(new BlackLight());
         Rabotyga.DoSwitchPower(tvs2);
 
 
